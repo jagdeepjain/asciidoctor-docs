@@ -1,0 +1,67 @@
+:doctype: sample
+:icons: font
+:source-highlighter: coderay
+:imagesdir: images
+:toc: left
+:nofooter:
+
+= An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+* item 1
+* item 2
+
+== Second Section
+
+[source,ruby,linenum]
+puts "Hello, World!" <1>
+
+<1> printing Hello, World !
+
+== Notes, Warnings
+
+[TIP]
+This is sample Info!
+
+[IMPORTANT]
+This is Important!
+
+[NOTE]
+This is sample Note!
+
+[WARNING]
+This is sample warning!
+
+[quote]
+This is quote!
+
+
+The text pass:[<u>underline me</u>] is underlined.
+[sidebar]
+
+== One More Section
+.Related information
+--
+This is aside text.
+
+It is used to present information related to the main content.
+--
+
+== Tables
+[cols=2*]
+|===
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|===
+
+== Images
+[#img-sunset]
+.A mountain sunset
+[link=https://www.flickr.com/photos/javh/5448336655]
+image::sunset.jpg[Sunset,300,200]
