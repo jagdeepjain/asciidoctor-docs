@@ -23,5 +23,5 @@ https://asciidoctor.org/docs/asciidoc-writers-guide/
 ## Using Theme
 
 ```
-asciidoctor -a stylesheet=./stylesheets/asciidoctor.css sample.adoc
+asciidoctor -a stylesheet=asciidoctor.css sample.adoc
 ```

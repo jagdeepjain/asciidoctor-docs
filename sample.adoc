@@ -27,13 +27,13 @@ This is sample Info!
 This is Important!
 
 [NOTE]
-This is sample Note!
+This is a sample Note!
 
 [WARNING]
-This is sample warning!
+This is a warning!
 
 [quote]
-This is quote!
+This is a quote!
 
 
 The text pass:[<u>underline me</u>] is underlined.
